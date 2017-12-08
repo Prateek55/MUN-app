@@ -1,0 +1,41 @@
+
+
+#contentss {
+	padding: 5px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	
+}
+
+
+
+
+
+
+#f1_upload_form {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	
+	font-weight: normal;
+	
+}
+
+
+ @media (min-width: 1200px) {
+ 	.navbar-nav > li{
+	 	width:10vw;
+	 }
+
+  }
+  @media (max-width: 750px) {
+ 	#logo{
+ 		display: none;
+ 	}
+  }
+
+  #logo{
+  	margin-top: 3px;
+  }
+  #header h3{
+	font-size: 3.9vh;
+}

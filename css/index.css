@@ -1,0 +1,37 @@
+
+#content {
+    width:458px; 
+    border:solid 2px #333;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    margin-bottom:6px;
+    text-align:left;
+    -moz-appearance: textfield-multiline;
+    -webkit-appearance: textarea;
+    outline: none;
+    font: medium -moz-fixed;
+    font: -webkit-small-control;
+    height: 200px;
+    overflow:auto ;
+    padding: 2px;
+    
+   
+}
+
+label.filebutton {  
+    overflow:hidden;
+    position:relative;
+    
+}
+
+label span input {
+    z-index: 999;
+    line-height: 0;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+    -ms-filter: "alpha(opacity=0)";
+    cursor: pointer;
+    _cursor: hand;
+    margin: 0;
+    padding:0;
+}
